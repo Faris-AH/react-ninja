@@ -8,7 +8,7 @@ export default function AppRouting(props) {
     <Router>
       <Switch>
         <Route
-          path="/"
+          path='/'
           render={props => <NinjaRouting {...props}></NinjaRouting>}></Route>
       </Switch>
     </Router>
